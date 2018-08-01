@@ -2,9 +2,7 @@
 
 namespace DneGolliShare\Subscriber;
 
-use Doctrine\Common\Collections\ArrayCollection;
 use Enlight\Event\SubscriberInterface;
-use Shopware\Components\Theme\LessDefinition;
 
 class TemplateRegistration implements SubscriberInterface
 {
