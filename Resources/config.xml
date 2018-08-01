@@ -10,8 +10,8 @@
         </element>
         <element scope="shop" type="text">
             <name>golli_username</name>
-            <label lang="de">Gol.li Benutzername</label>
-            <label lang="en">Gol.li Username</label>
+            <label lang="de">gol.li Benutzername</label>
+            <label lang="en">gol.li Username</label>
             <value/>
         </element>
         <element scope="shop" type="number">
