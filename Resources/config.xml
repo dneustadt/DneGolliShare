@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element scope="shop" type="boolean">
+            <name>golli_active</name>
+            <label lang="de">Aktiv</label>
+            <label lang="en">Active</label>
+            <value>1</value>
+        </element>
+        <element scope="shop" type="text">
+            <name>golli_username</name>
+            <label lang="de">Gol.li Benutzername</label>
+            <label lang="en">Gol.li Username</label>
+            <value/>
+        </element>
+        <element scope="shop" type="number">
+            <name>golli_widget_height</name>
+            <label lang="de">Widget Höhe in Pixel</label>
+            <label lang="en">Widget Pixel Height</label>
+            <value>80</value>
+        </element>
+        <element scope="shop" type="number">
+            <name>golli_widget_width</name>
+            <label lang="de">Widget Breite in Pixel</label>
+            <label lang="en">Widget Pixel Width</label>
+            <value>230</value>
+        </element>
+        <element scope="shop" type="combo">
+            <name>golli_footer_display</name>
+            <label lang="de">Widget in Footer anzeigen</label>
+            <label lang="en">Display Widget in Footer</label>
+            <value>4</value>
+            <store>
+                <option>
+                    <value>1</value>
+                    <label lang="de">In Hotline Spalte</label>
+                    <label lang="en">In Hotline Column</label>
+                </option>
+                <option>
+                    <value>2</value>
+                    <label lang="de">In Service Spalte</label>
+                    <label lang="en">In Service Column</label>
+                </option>
+                <option>
+                    <value>3</value>
+                    <label lang="de">In Information Spalte</label>
+                    <label lang="en">In Information Column</label>
+                </option>
+                <option>
+                    <value>4</value>
+                    <label lang="de">In Newsletter Spalte</label>
+                    <label lang="en">In Newsletter Column</label>
+                </option>
+                <option>
+                    <value>0</value>
+                    <label lang="de">Nicht anzeigen</label>
+                    <label lang="en">Do not display</label>
+                </option>
+            </store>
+        </element>
+        <element scope="shop" type="combo">
+            <name>golli_sidebar_display</name>
+            <label lang="de">Widget in Sidebar anzeigen</label>
+            <label lang="en">Display Widget in Sidebar</label>
+            <value>1</value>
+            <store>
+                <option>
+                    <value>1</value>
+                    <label lang="de">In Sidebar anzeigen</label>
+                    <label lang="en">Display in Sidebar</label>
+                </option>
+                <option>
+                    <value>0</value>
+                    <label lang="de">Nicht anzeigen</label>
+                    <label lang="en">Do not display</label>
+                </option>
+            </store>
+        </element>
+    </elements>
+</config>
