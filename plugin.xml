@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
-    <label lang="de">Gol.li Social Network Links</label>
-    <label lang="en">Gol.li Social Network Links</label>
+    <label lang="de">Social Network Links by gol.li</label>
+    <label lang="en">Social Network Links by gol.li</label>
 
     <version>1.0.0</version>
     <link>https://gol.li</link>
