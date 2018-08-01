@@ -30,52 +30,40 @@
             <name>golli_footer_display</name>
             <label lang="de">Widget in Footer anzeigen</label>
             <label lang="en">Display Widget in Footer</label>
-            <value>4</value>
+            <value>col4</value>
             <store>
                 <option>
-                    <value>1</value>
+                    <value>col1</value>
                     <label lang="de">In Hotline Spalte</label>
                     <label lang="en">In Hotline Column</label>
                 </option>
                 <option>
-                    <value>2</value>
+                    <value>col2</value>
                     <label lang="de">In Service Spalte</label>
                     <label lang="en">In Service Column</label>
                 </option>
                 <option>
-                    <value>3</value>
+                    <value>col3</value>
                     <label lang="de">In Information Spalte</label>
                     <label lang="en">In Information Column</label>
                 </option>
                 <option>
-                    <value>4</value>
+                    <value>col4</value>
                     <label lang="de">In Newsletter Spalte</label>
                     <label lang="en">In Newsletter Column</label>
                 </option>
                 <option>
-                    <value>0</value>
+                    <value>false</value>
                     <label lang="de">Nicht anzeigen</label>
                     <label lang="en">Do not display</label>
                 </option>
             </store>
         </element>
-        <element scope="shop" type="combo">
+        <element scope="shop" type="boolean">
             <name>golli_sidebar_display</name>
             <label lang="de">Widget in Sidebar anzeigen</label>
             <label lang="en">Display Widget in Sidebar</label>
-            <value>1</value>
-            <store>
-                <option>
-                    <value>1</value>
-                    <label lang="de">In Sidebar anzeigen</label>
-                    <label lang="en">Display in Sidebar</label>
-                </option>
-                <option>
-                    <value>0</value>
-                    <label lang="de">Nicht anzeigen</label>
-                    <label lang="en">Do not display</label>
-                </option>
-            </store>
+            <value>true</value>
         </element>
     </elements>
 </config>
