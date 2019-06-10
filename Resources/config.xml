@@ -14,6 +14,25 @@
             <label lang="en">gol.li Username</label>
             <value/>
         </element>
+        <element type="button">
+            <name>golli_create_account</name>
+            <label lang="de">
+                Kostenlosen Account erstellen
+            </label>
+            <label lang="en">
+                Create a free account
+            </label>
+            <options>
+                <handler>
+                    <![CDATA[
+                    function(button) {
+                        var win = window.open('https://gol.li', '_blank');
+                        win.focus();
+                    }
+                    ]]>
+                </handler>
+            </options>
+        </element>
         <element scope="shop" type="number">
             <name>golli_widget_height</name>
             <label lang="de">Widget Höhe in Pixel</label>
@@ -64,6 +83,16 @@
             <label lang="de">Widget in Sidebar anzeigen</label>
             <label lang="en">Display Widget in Sidebar</label>
             <value>true</value>
+        </element>
+        <element scope="shop" type="color">
+            <name>golli_background_color</name>
+            <label lang="de">Widget Hintergrundfarbe</label>
+            <label lang="en">Widget background color</label>
+        </element>
+        <element scope="shop" type="color">
+            <name>golli_border_color</name>
+            <label lang="de">Widget Rahmenfarbe</label>
+            <label lang="en">Widget border color</label>
         </element>
     </elements>
 </config>
